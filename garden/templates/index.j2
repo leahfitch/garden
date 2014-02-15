@@ -1,0 +1,50 @@
+{% extends "base.j2" %}
+
+{% block title %}Garden!!{% endblock %}
+
+{% block body %}
+
+<div class="row">
+    <div class="small-12 column">
+        <h2>
+            Gardens
+            <small><a href="{{ url_for('add_garden') }}">Add a new garden</a></small>
+        </h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 column">
+        <ul class="small-block-grid-1 large-block-grid-3">
+        {% if gardens %}
+            {% for garden in gardens %}
+            <li>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>{{ garden.name }} seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% if garden.seasons.count() > 0 %}
+                            {% for season in garden.seasons %}
+                            <tr>
+                                <td><a href="{{ url_for('season', season_id=season.id) }}">{{ season.year }}</a></td>
+                            </tr>
+                            {% endfor %}
+                        {% endif %}
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td><a href="{{ url_for('add_season', garden_id=garden.id) }}">Add a new season</a></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

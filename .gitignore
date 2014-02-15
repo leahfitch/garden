@@ -1,0 +1,6 @@
+*.pyc
+*.log
+/config.py
+/config.test.py
+static-dist
+tmp.py

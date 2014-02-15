@@ -1,0 +1,735 @@
+{
+    "name": "CCL Kitchen",
+    "year": 2014,
+    "dates": {
+        "workable_ground": "4-1",
+        "last_frost": "5-28",
+        "midsummer": "6-21",
+        "first_frost": "9-19"
+    },
+    "plants": [
+        {
+            "name": "Artemisia"
+        },
+        {
+            "name": "Basil",
+            "varieties": [
+                {
+                    "name": "Genovese",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-genovese-basil.html",
+                    "spacing": 6,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "days": 18,
+                                "after": "last_frost"
+                            },
+                            "repeat": { "weeks": 2 }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 68
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Pick continuously before flower buds open, up to 6\" below the flower buds or ends to encourage continuous growth. Cut in the morning after the dew has dried. Do not wash the leaves or aromatic oils will be lost."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Beans, bush",
+            "varieties": [
+                {
+                    "name": "Royal Burgundy",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-royal-burgundy-bean.html",
+                    "spacing": 3,
+                    "depth": 1,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 3,
+                                "after": "last_frost"
+                            },
+                            "repeat": { "weeks": 2 }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 55
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Pick early in morning, after leaves are dry. Harvest before seeds bulge, when beans snap off the plant and snap in half cleanly. Continual harvest is essential for prolonged production."
+                    }
+                },
+                {
+                    "name": "Black Turtle",
+                    "catalog": "http://www.highmowingseeds.com/Organic-Black-Turtle-Dry-Bean-Seeds.html",
+                    "spacing": 3,
+                    "depth": 1,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 2,
+                                "after": "last_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 100
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvest once in fall when plants are dry. Avoid harvesting moldy pods.",
+                        "storage": "Dry in cool, dry conditions prior to long-term storage. Beans are ready for storage when seed coat can not be dented by fingernail. Store beans in a cool dry place."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Beans, pole",
+            "varieties": [
+                {
+                    "name": "Kentucky Wonder",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-kentucky-wonder-pole-bean.html",
+                    "spacing": 6,
+                    "depth": 1,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 4,
+                                "after": "last_frost"
+                            },
+                            "repeat": { "weeks": 2 }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 65
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvest continuously for fresh beans or let dry.",
+                        "storage": "Dry in cool, dry conditions prior to long-term storage. Beans are ready for storage when seed coat can not be dented by fingernail. Store beans in a cool dry place."
+                    }
+                },
+                {
+                    "name": "Blue Coco",
+                    "catalog": "http://www.highmowingseeds.com/Organic-Blue-Coco-Bean-Seeds.html",
+                    "spacing": 6,
+                    "depth": 1,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 3,
+                                "after": "last_frost"
+                            },
+                            "repeat": { "weeks": 2 }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 65
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvest continuously.",
+                        "storage": "Dry in cool, dry conditions prior to long-term storage. Beans are ready for storage when seed coat can not be dented by fingernail. Store beans in a cool dry place."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Beets",
+            "varieties": [
+                {
+                    "name": "Detroit Dark Red",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-detroit-dark-red-beet.html",
+                    "spacing": 3,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                           "start":  {
+                                "days": 0,
+                                "after": "workable_ground"
+                            },
+                            "repeat": { "weeks": 2 },
+                            "stop": {
+                                "days": 55,
+                                "before": "first_frost"
+                            }
+                        },
+                        {
+                            "start": {
+                                "weeks": 6,
+                                "before": "first_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 55
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvest when roots reach desired size. For winter storage, allow crop to stand for a few mild frosts, but harvest before a hard freeze. For beet greens, harvest starting around five weeks, or when leaves are ~3”. Use floating row covers to extend season.",
+                        "storage": "Optimal storage conditions for roots are 32°F and 95% humidity, cut tops at 1” above crown, wash and let dry. Roots store well for up to 6 months. For best storage of greens, cool with water immediately after harvest and refrigerate in a plastic bag to retain moisture."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cabbage",
+            "varieties": [
+                {
+                    "name": "Caraflex",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-Caraflex-F1-Cabbage.html",
+                    "spacing": 15,
+                    "depth": 0.5,
+                    "sow": [
+                        {
+                            "where": "indoors",
+                            "start": {
+                                "weeks": 3,
+                                "before": "last_frost"
+                            },
+                            "transplant": {
+                                "weeks": 2,
+                                "after": "last_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 68
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Cabbage is mature when the tight outer leaf of the head begins to fold back on itself. Cut heads flat on underside.",
+                        "storage": "Cabbage is best stored at 32°F, with high humidity and good air circulation. Green, actively growing, disease-free heads keep best."
+                    }
+                },
+                {
+                    "name": "Kaboko",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-kaboko-f1-hybrid-cabbage.html",
+                    "spacing": 15,
+                    "depth": 0.5,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 1,
+                                "after": "last_frost"
+                            },
+                            "start": {
+                                "days": 34,
+                                "before": "first_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 60
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Calendula",
+            "varieties": [
+                {
+                    "name": "Strawberry Blonde",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-strawberry-blonde-calendula.html",
+                    "spacing": 5,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 1,
+                                "after": "last_frost"
+                            },
+                            "repeat": {
+                                "weeks": 2
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 40
+                            },
+                            "repeat": {
+                                "days": 3
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Early morning after dew dries. Cut flower heads. Leaves are also edible.",
+                        "storage": "Dry, head down until crackly and store in jars."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Carrot",
+            "varieties": [
+                {
+                    "name": "Cosmic Purple",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-cosmic-purple-carrot.html",
+                    "spacing": 2,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 3,
+                                "before": "last_frost"
+                            },
+                            "repeat": {
+                                "weeks": 2
+                            },
+                            "stop": {
+                                "weeks": 3,
+                                "before": "midsummer"
+                            }
+                        },
+                        {
+                            "start": {
+                                "weeks": 6,
+                                "before": "first_frost"
+                            },
+                            "repeat": {
+                                "weeks": 2
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 70
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Yellowstone",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-yellowstone-carrot.html",
+                    "spacing": 2,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 3,
+                                "before": "last_frost"
+                            },
+                            "repeat": {
+                                "weeks": 2
+                            },
+                            "stop": {
+                                "weeks": 3,
+                                "before": "midsummer"
+                            }
+                        },
+                        {
+                            "start": {
+                                "weeks": 6,
+                                "before": "first_frost"
+                            },
+                            "repeat": {
+                                "weeks": 2
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 70
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Celery",
+            "varieties": [
+                {
+                    "name": "Calypso",
+                    "catalog": "http://www.highmowingseeds.com/Organic-Seeds-Calypso-Celery.html",
+                    "spacing": 6,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "where": "indoors",
+                                "weeks": 10,
+                                "before": "transplant"
+                            },
+                            "transplant": {
+                                "weeks": 2,
+                                "before": "last_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 88
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Collards",
+            "varieties": [
+                {
+                    "name": "Champion",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-champion-collards.html",
+                    "spacing": 3,
+                    "thin": 16,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "days": 0,
+                                "after": "workable_ground"
+                            },
+                            "repeat": {
+                                "weeks": 4
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 70
+                            }
+                        },
+                        {
+                            "start": {
+                                "weeks": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cilantro",
+            "varieties": [
+                {
+                    "name": "Santo",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-santo-cilantro.html",
+                    "spacing": 2,
+                    "thin": 5,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 3,
+                                "after": "last_frost"
+                            },
+                            "repeat": {
+                                "weeks": 2
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 55
+                            },
+                            "note": "leaf"
+                        },
+                        {
+                            "start": {
+                                "days": 95
+                            },
+                            "note": "seed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cucumber",
+            "varieties": [
+                {
+                    "name": "National Pickling",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-national-pickling-cucumber.html",
+                    "spacing": 8,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 3,
+                                "after": "last_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 52
+                            },
+                            "repeat": {
+                                "days": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cumin",
+            "varieties": [
+                {
+                    "name": "Common",
+                    "catalog": "http://www.seedsavers.org/onlinestore/Herbs/Herb-Cumin.html",
+                    "spacing": 5,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "where": "indoors",
+                            "start": {
+                                "weeks": 6,
+                                "before": "last_frost"
+                            },
+                            "transplant": {
+                                "weeks": 3,
+                                "after": "last_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eggplant",
+            "varieties": [
+                {
+                    "name": "Ping Tung",
+                    "catalog": "http://www.highmowingseeds.com/Organic-Seeds-Ping-Tung-Long-Eggplant.html",
+                    "spacing": 18,
+                    "depth": 0.25,
+                    "sow": [
+                        {
+                            "where": "indoors",
+                            "start": {
+                                "weeks": 9,
+                                "before": "last_frost"
+                            },
+                            "transplant": {
+                                "weeks": 3,
+                                "after": "last_frost"
+                            }
+                        }   
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 70
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvest eggplants when skin is glossy and thumbprint will not leave an impression, if seeds are brown fruit is over-ripe. Regular harvest increases production of fruit."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Garlic",
+            "varieties": [
+                {
+                    "name": "Music (hardneck)",
+                    "catalog": "http://www.highmowingseeds.com/organic-music-garlic.html",
+                    "spacing": 3,
+                    "depth": 10.5,
+                    "sow": [
+                        {
+                            "start": {
+                                "days": 0,
+                                "after": "workable_ground"
+                            }
+                        },
+                        {
+                            "start": {
+                                "weeks": 7,
+                                "before": "first_frost"
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvest mid-late summer when 6 or 7 healthy green leaves remain. Loosen soil and lift with a garden fork. Cure in a dim area with ample airflow for 2-3 weeks. After curing is complete, lop off the tops about an inch above bulb and trim roots.",
+                        "storage": "Ideal storage conditions are 35 - 50°F, moderate humidity between 65 - 70%, and good air circulation. Most hardnecks can be kept for several weeks, softneck varieties tend to have a longer shelf life."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Microgreens",
+            "varieties": [
+                {
+                    "name": "Mesclun Mix",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-high-mowing-mesclun-mix.html",
+                    "sow": [
+                        {
+                            "start": {
+                                "days": 0,
+                                "after": "workable_ground"
+                            },
+                            "repeat": {
+                                "weeks": 3
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "days": 28
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Cut lettuce holds best when harvested in the morning and cooled rapidly.  For salad mix or baby leaf production, harvest individual leaves when they reach desired size, or cut evenly across the bed making sure to stay above the growing tip.  For a continuous harvest, sow lettuce every 3 weeks."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Marigold",
+            "varieties": [
+                {
+                    "name": "Dark Orange",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-dark-orange-marigold.html",
+                    "spacing": 12,
+                    "sow": [
+                        {
+                            "where": "indoors",
+                            "start": {
+                                "weeks": 5,
+                                "before": "last_frost"
+                            },
+                            "transplant": {
+                                "weeks": 3,
+                                "after": "last_frost"
+                            }
+                        },
+                        {
+                            "start": {
+                                "weeks": 4,
+                                "after": "last_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 85
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Melon",
+            "varieties": [
+                {
+                    "name": "Delicious Canteloupe",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-pmr-delicious-51-melon.html",
+                    "spacing": 24,
+                    "depth": 0.5,
+                    "sow": [
+                        {
+                            "start": {
+                                "weeks": 2,
+                                "after": "last_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 90
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvesting melons at perfect maturity can be tricky, each type is a little different.  In general: cantaloupes slip from vine when ripe; charantais types can be cut when they have a thick netted skin (they are a bit over-ripe if they slip); galia types slip from the vine and are ready when skin turns bright yellow; honeydews can be cut from the vine when skin turns color. Other indicators of ripeness are when the leaf closest to fruit becomes dried and shriveled and when the stem becomes corky.",
+                        "storage": "Ripe melons usually keep up to 4 weeks in a cold storage."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Kale",
+            "varieties": [
+                {
+                    "name": "Siberian",
+                    "catalog": "http://www.highmowingseeds.com/organic-seeds-siberian-kale.html",
+                    "spacing": 15,
+                    "depth": 0.5,
+                    "sow": [
+                        {
+                            "start": {
+                                "days": 0,
+                                "after": "workable_ground"
+                            },
+                            "repeat": {
+                                "weeks": 4
+                            },
+                            "stop": {
+                                "days": 0,
+                                "after": "first_frost"
+                            }
+                        }
+                    ],
+                    "harvest": [
+                        {
+                            "start": {
+                                "days": 60
+                            }
+                        },
+                        {
+                            "start": {
+                                "days": 30
+                            }
+                        }
+                    ],
+                    "notes": {
+                        "harvest": "Harvest full size leaves when desired. Kale flavor sweetens after light frosts. Kale and collards are both very cold hardy, overwintering in most climates to some degree.",
+                        "storage": "Cool leaves in cold water at harvest and store in plastic in fridge. In late fall, cut the heart of the plant and store just above freezing in a plastic bag for a few weeks."
+                    }
+                }
+            ]
+        }
+    ]
+}
